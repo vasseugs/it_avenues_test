@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+		http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+
+  <changeSet id="20221005-1" author="es-vasiliev" context="test" runOnChange="false">
+    <sqlFile encoding="utf8" path="classpath:/sql/test/truncate_all_procedure.sql" splitStatements="false"/>
+  </changeSet>
+</databaseChangeLog>
